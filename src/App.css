@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  padding: .2rem;
+  margin-left: 2rem;
+  display: grid;
+  grid-row: 1;
+}
+.p{
+  padding: 0 !important;
+}
+
+.projects{
+  display: grid;
+}
+.project {
+  display: grid;
+  grid-column: 1;
+  justify-content: start;
+  padding: .1rem;
+  border-radius: 1rem;
+  border: solid .5px black;
+  margin: .5rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: .1rem;
+  margin-bottom: 3rem;
+}
+
+.input {
+  margin: 1rem !important;
+}
+
+button {
+  margin: 1rem !important;
+}
